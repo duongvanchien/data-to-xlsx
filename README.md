@@ -41,7 +41,7 @@ const App = () => {
               },
               {
                 Index: 2,
-                Tên: "Katory Jindo",
+                Name: "Katory Jindo",
                 Age: 17
               },
             ],
