@@ -1,6 +1,6 @@
 {
   "name": "data-to-xlsx",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert data to excel and save",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -30,5 +30,10 @@
     "file-saver": "^2.0.5",
     "xlsx": "^0.18.5",
     "xlsx-js-style": "^1.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duongvanchien/data-to-xlsx"
+  },
+  "homepage": "https://github.com/duongvanchien/data-to-xlsx"
 }
