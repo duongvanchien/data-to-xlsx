@@ -1,0 +1,34 @@
+{
+  "name": "data-to-xlsx",
+  "version": "1.0.4",
+  "description": "Convert data to excel and save",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "nodemon ./server.ts"
+  },
+  "keywords": [
+    "xlsx",
+    "data-to-xlsx",
+    "excel"
+  ],
+  "author": "Jindo Katory",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/file-saver": "^2.0.7",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "file-saver": "^2.0.5",
+    "xlsx": "^0.18.5",
+    "xlsx-js-style": "^1.2.0"
+  }
+}
