@@ -1,6 +1,6 @@
 {
   "name": "data-to-xlsx",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Convert data to excel and save",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,17 @@
   "keywords": [
     "xlsx",
     "data-to-xlsx",
-    "excel"
+    "excel",
+    "json",
+    "json-to-xlsx",
+    "create-excel",
+    "create-xlsx",
+    "xlsx-js-style",
+    "file-saver",
+    "excel-from-json",
+    "excel-from-xlsx",
+    "download-excel",
+    "download-excel-from-json"
   ],
   "author": "Jindo Katory",
   "license": "ISC",
@@ -33,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/duongvanchien/data-to-xlsx"
+    "url": "git+https://github.com/duongvanchien/data-to-xlsx.git"
   },
   "homepage": "https://github.com/duongvanchien/data-to-xlsx"
 }
